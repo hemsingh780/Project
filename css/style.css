@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px;
+  background-color: whitesmoke;
+  /* margin: auto; */
+}
+
+body {
+  font-family: Poppins;
+}
+
+.h {
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo-h {
+  font-weight: bolder;
+  color: #708090;
+}
+
+.logo-g {
+  font-weight: bolder;
+  color: #FF7F50;
+}
+
+.logo, .nav-bar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section {
+  padding-top: 4rem;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home-data {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.home-image {
+  mix-blend-mode: darken;
+}
+
+.another {
+  mix-blend-mode: darken;
+}
+
+.another1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: size14;
+  padding-top: 6rem;
+}
+
+.section1 {
+  padding-top: 4rem;
+}
+
+.img-wrap {
+  height: 16rem;
+  width: 27rem;
+}
+
+.row {
+  padding-top: 4rem;
+  padding-left: size14;
+  padding-bottom: 4rem;
+}
+
+.col-sm-7 {
+  padding-left: 3rem;
+  padding-right: size14;
+  display: -ms-grid;
+  display: grid;
+  border-left: ridge;
+  border-left: solid;
+  margin-bottom: auto;
+  display: list-item;
+}
+
+.service {
+  padding-top: 6rem;
+  padding-left: size14;
+  padding-bottom: size14;
+  padding-right: size14;
+}
+
+.service-image {
+  width: 9rem;
+  height: 10rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.service-container1, .service-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+.service-container1 {
+  padding-bottom: 1rem;
+}
+
+.service-container2 {
+  padding-top: 1rem;
+}
+
+.service-heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.data-img {
+  padding-top: 2rem;
+}
+
+.project-container1, .project-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project-container1 {
+  padding-bottom: 4rem;
+}
+
+.project {
+  padding-top: 6rem;
+}
+
+.project-image {
+  height: 28rem;
+  width: 17rem;
+}
+
+.project-heading {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.pricing {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.pricing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card1 {
+  background-color: blue;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.list-group {
+  text-align: center;
+}
+
+.card-body h4 {
+  color: aliceblue;
+}
+
+.card2 {
+  text-align: center;
+}
+
+.pricing-heading {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.card {
+  margin-bottom: 3rem;
+  width: 16rem;
+}
+
+.input {
+  width: 28rem;
+}
+
+.form-floating {
+  padding-bottom: 2rem;
+}
+
+.contact-container {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.input1 {
+  width: 28rem;
+}
+
+.contact-data {
+  width: 72rem;
+}
+
+div textarea {
+  height: 12rem;
+}
+
+.contact-heading {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.form-container {
+  text-align: -webkit-center;
+}
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-top: 5rem;
+}
+/*# sourceMappingURL=style.css.map */

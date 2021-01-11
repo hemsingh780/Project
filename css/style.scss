@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+$color1: #708090;
+$color2: #FF7F50;
+$color3: skyblue;
+$border1:2px solid black;
+$center:center;
+$size:0.5rem;
+$size1:1rem;
+$size2:1.5rem;
+$size3:2rem;
+$size4:2.5rem;
+$size5:3rem;
+$size6:3.5rem;
+$size7:4rem;
+$size8:4.5rem;
+$size9:5rem;
+$size10:5.5rem;
+$size11:6rem;
+$size12:6.5rem;
+$size13:7.5rem;
+$size14:8rem;
+$size15:8.5rem;
+*{
+    box-sizing: border-box;
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ h1,h2,p{
+     margin: 0;
+ }
+ ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ a{
+     text-decoration: none;
+ }
+ img{
+     max-width: 100%;
+     height: auto;
+     display: block;
+ }
+.header{
+     display: flex;
+     padding: 13px;
+     background-color:whitesmoke;
+    //   width: 97%; */
+     /* margin: auto; */
+    //  background:$color3;
+ }
+ body{
+     font-family:Poppins;
+     
+ }
+.h{
+    position: fixed;
+    width: 100%;
+}
+//==============header==================
+
+// .container{
+//    display: contents;
+//  }
+ .logo{
+   display: flex;
+   font-family: 'Courier New', Courier, monospace;
+ }
+.logo-h{
+     font-weight: bolder;
+     color:$color1;
+ }
+ .logo-g{
+     font-weight: bolder;
+     color:$color2;
+}
+.logo,.nav-bar{
+     flex:1;
+ }
+ .nav{
+     justify-content: space-between;
+ }
+//==============home===================
+.section{
+    padding-top:$size7;
+} 
+.home{
+    display: flex;
+    justify-content: space-around;
+    // background:$color3;
+ }
+  .home-data{
+     align-self:$center;
+ }
+.home-image{
+    mix-blend-mode: darken;
+}
+.another-home-image{
+    // background-color:$color3;
+}
+.another{
+    mix-blend-mode: darken;    
+}
+.another1{
+display: flex;
+// background-color: skyblue;
+padding-left:size14;
+padding-top:$size11;
+}
+
+//============about====================
+
+.section1{
+    // background-color: coral;
+    padding-top:$size7;
+}
+.img-wrap{
+    height: 16rem;
+    width: 27rem;
+}
+.row{
+    padding-top:$size7;
+    padding-left:size14;
+    // padding-right: 1rem;
+    padding-bottom:$size7;
+}
+.col-sm-7{
+        padding-left: 3rem;
+        padding-right: size14;
+        display: grid;
+        border-left: ridge;
+        border-left: solid;
+        margin-bottom: auto;
+        display: list-item;
+}
+
+//=============service==================
+
+.service{
+    // background-color: aqua;
+    padding-top: $size11;
+    padding-left:size14;
+    padding-bottom:size14;
+    padding-right:size14;
+}
+.service-image{
+    width: 9rem;
+    height: 10rem;
+    padding-left:$size1;
+    padding-top:$size1;
+}
+.service-container1 , .service-container2{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap-reverse;
+}
+.service-container1{
+    padding-bottom:$size1;
+}
+.service-container2{
+    padding-top:$size1;
+}
+.service-heading{
+    text-align: $center;
+    padding-bottom:$size3;
+    padding-top:$size3;
+}
+.data-img{
+    padding-top:$size3;
+}
+
+//=============project====================
+.project-container1 , .project-container2{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+.project-container1{
+    padding-bottom:$size7;
+}
+.project{
+    // background-color: lightcoral;
+    padding-top:$size11;
+}
+.project-image{
+    height: 28rem;
+    width: 17rem
+}
+.project-heading{
+    text-align: $center;
+    padding-bottom:$size7;
+}
+
+//=============pricing====================
+.pricing{
+    padding-top:$size11;
+    // background-color: #708090;
+    padding-bottom:$size7;
+}
+.pricing-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1{
+    background-color: blue;
+    text-align: $center;
+}
+.card-title{
+    text-align:$center;
+    padding-top:$size1;
+}
+.list-group{
+    text-align:$center;
+}
+.card-body h4{
+    color: aliceblue;
+}
+.card2{
+    text-align:$center;
+}
+.pricing-heading{
+    text-align:$center;
+    padding-bottom: 5rem;
+}
+.card{
+    margin-bottom: $size5;
+    width: 16rem;
+}
+
+//==================contact===========================
+
+.input{
+    width: 28rem;
+}
+.form-floating{
+  padding-bottom: $size3;
+ }
+.contact-container{
+    padding-top:$size11;
+    padding-bottom:3rem;
+}
+.input1 {
+ width: 28rem;
+}
+.contact-data{
+width: 72rem;
+}
+div textarea{
+    height: 12rem;
+}
+.contact-heading{
+ text-align: $center;
+ padding-bottom:$size7;
+}
+.form-container{
+ text-align: -webkit-center;  
+}
+.footer{
+    padding-top: 3rem;
+    padding-bottom: $size7;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content:$center;
+}
+.main{
+    //  background-color: mediumspringgreen;
+    // background: aqua;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+    padding-top: 5rem;
+}
