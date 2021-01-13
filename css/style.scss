@@ -43,87 +43,61 @@ $size15:8.5rem;
      height: auto;
      display: block;
  }
-.header{
-     display: flex;
-     padding: 13px;
-     background-color:whitesmoke;
-    //   width: 97%; */
-     /* margin: auto; */
-    //  background:$color3;
- }
- body{
-     font-family:Poppins;
+// .header{
+//      display: flex;
+//      padding: 13px;
+//      background-color:whitesmoke
+//  }
+//  body{
+//      font-family:Poppins;
      
- }
-.h{
-    position: fixed;
-    width: 100%;
-}
+//  }
+// .h{
+//     position: fixed;
+//     width: -webkit-fill-available
+// }
+
 //==============header==================
 
-// .container{
-//    display: contents;
-//  }
- .logo{
-   display: flex;
-   font-family: 'Courier New', Courier, monospace;
- }
-.logo-h{
-     font-weight: bolder;
-     color:$color1;
- }
- .logo-g{
-     font-weight: bolder;
-     color:$color2;
-}
-.logo,.nav-bar{
-     flex:1;
- }
- .nav{
-     justify-content: space-between;
- }
-//==============home===================
-.section{
-    padding-top:$size7;
-} 
-.home{
+  .logo{
     display: flex;
-    justify-content: space-around;
-    // background:$color3;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    padding-left: 7rem; 
+  }
+ .logo-h{
+      font-weight: bolder;
+      color:$color1;
+  }
+  .logo-g{
+      font-weight: bolder;
+      color:$color2;
  }
-  .home-data{
-     align-self:$center;
- }
-.home-image{
-    mix-blend-mode: darken;
-}
-.another-home-image{
-    // background-color:$color3;
-}
-.another{
-    mix-blend-mode: darken;    
-}
-.another1{
-display: flex;
-// background-color: skyblue;
-padding-left:size14;
-padding-top:$size11;
-}
+//  .logo,.nav-bar{
+    //   flex:1;
+//  }
+//   .nav{
+//      justify-content: space-between;
+//  }
+//==============home===================
+
 
 //============about====================
-
+// .about-data{
+//     // align-self:$center;
+//     text-align: $center;
+//     padding-bottom: 2rem;
+// }
 .section1{
-    // background-color: coral;
     padding-top:$size7;
 }
-.img-wrap{
-    height: 16rem;
-    width: 27rem;
-}
+// .img-wrap{
+//     height: 16rem;
+//     width: 27rem;
+// }
 .row{
     padding-top:$size7;
     padding-left:size14;
-    // padding-right: 1rem;
     padding-bottom:$size7;
 }
 .col-sm-7{
@@ -133,17 +107,19 @@ padding-top:$size11;
         border-left: ridge;
         border-left: solid;
         margin-bottom: auto;
-        display: list-item;
 }
 
 //=============service==================
 
 .service{
-    // background-color: aqua;
     padding-top: $size11;
     padding-left:size14;
     padding-bottom:size14;
     padding-right:size14;
+}
+.service1{
+    white-space: pre-line;
+    width: 12rem;
 }
 .service-image{
     width: 9rem;
@@ -181,8 +157,10 @@ flex-wrap: wrap-reverse;
     padding-bottom:$size7;
 }
 .project{
-    // background-color: lightcoral;
     padding-top:$size11;
+}
+.project1:hover{
+    color: transparent;
 }
 .project-image{
     height: 28rem;
@@ -196,7 +174,6 @@ flex-wrap: wrap-reverse;
 //=============pricing====================
 .pricing{
     padding-top:$size11;
-    // background-color: #708090;
     padding-bottom:$size7;
 }
 .pricing-container{
@@ -265,11 +242,72 @@ div textarea{
     display: flex;
     justify-content:$center;
 }
-.main{
-    //  background-color: mediumspringgreen;
-    // background: aqua;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;  
-    padding-top: 5rem;
+// .main{
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: 100% 100%;  
+//     padding-top: 5rem;
+// }
+// #myVideo {
+//     position: absolute;
+//     right: 0;
+//     bottom: 0;
+//     min-width: 100%; 
+//     min-height: 100%;
+// }
+// .background{
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: 100% 100%;  
+// }
+ #carouselExampleDark{ 
+     padding-top: 4.1rem;
+ }
+.d-block{
+     height: 30rem;
+ }
+
+
+ body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    // align-self: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header{
+    display: flex;
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    
+}
+// .logo{ 
+//     justify-content: center;
+// }
+#home{
+    padding-block: 3rem;
+}
+.carousel-inner{
+    padding-top: 0rem;
 }
