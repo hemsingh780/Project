@@ -28,22 +28,8 @@ img {
   display: block;
 }
 
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 13px;
-  background-color: whitesmoke;
-  /* margin: auto; */
-}
-
 body {
   font-family: Poppins;
-}
-
-.h {
-  position: fixed;
-  width: 100%;
 }
 
 .logo {
@@ -51,6 +37,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-family: 'Courier New', Courier, monospace;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 7rem;
 }
 
 .logo-h {
@@ -63,59 +53,8 @@ body {
   color: #FF7F50;
 }
 
-.logo, .nav-bar {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.nav {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.section {
-  padding-top: 4rem;
-}
-
-.home {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.home-data {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.home-image {
-  mix-blend-mode: darken;
-}
-
-.another {
-  mix-blend-mode: darken;
-}
-
-.another1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: size14;
-  padding-top: 6rem;
-}
-
 .section1 {
-  padding-top: 4rem;
-}
-
-.img-wrap {
-  height: 16rem;
-  width: 27rem;
+  padding-top: 6.5rem;
 }
 
 .row {
@@ -132,7 +71,10 @@ body {
   border-left: ridge;
   border-left: solid;
   margin-bottom: auto;
-  display: list-item;
+}
+
+.span {
+  color: #E6E7EA;
 }
 
 .service {
@@ -140,6 +82,11 @@ body {
   padding-left: size14;
   padding-bottom: size14;
   padding-right: size14;
+}
+
+.service1 {
+  white-space: pre-line;
+  width: 12rem;
 }
 
 .service-image {
@@ -175,6 +122,7 @@ body {
 
 .data-img {
   padding-top: 2rem;
+  color: #F1F4FFFF;
 }
 
 .project-container1, .project-container2 {
@@ -193,6 +141,10 @@ body {
 
 .project {
   padding-top: 6rem;
+}
+
+.project1:hover {
+  color: transparent;
 }
 
 .project-image {
@@ -298,10 +250,62 @@ div textarea {
           justify-content: center;
 }
 
-.main {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  padding-top: 5rem;
+#carouselExampleDark {
+  padding-top: 4.1rem;
+}
+
+.d-block {
+  height: 30rem;
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  /* Center the DIV horizontally */
+}
+
+.fixed-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  padding: 10px 0;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fixed-header {
+  top: 0;
+}
+
+.fixed-footer {
+  bottom: 0;
+}
+
+/* Some more styles to beutify this example */
+nav a {
+  color: skyblue;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+#home {
+  padding-block: 3rem;
+}
+
+.carousel-inner {
+  padding-top: 0rem;
 }
 /*# sourceMappingURL=style.css.map */

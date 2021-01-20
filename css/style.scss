@@ -48,10 +48,10 @@ $size15:8.5rem;
 //      padding: 13px;
 //      background-color:whitesmoke
 //  }
-//  body{
-//      font-family:Poppins;
+  body{
+      font-family:Poppins;
      
-//  }
+  }
 // .h{
 //     position: fixed;
 //     width: -webkit-fill-available
@@ -89,7 +89,7 @@ $size15:8.5rem;
 //     padding-bottom: 2rem;
 // }
 .section1{
-    padding-top:$size7;
+    padding-top:$size12;
 }
 // .img-wrap{
 //     height: 16rem;
@@ -108,7 +108,12 @@ $size15:8.5rem;
         border-left: solid;
         margin-bottom: auto;
 }
+.data-about{
 
+}
+.span{
+    color:#E6E7EA;
+}
 //=============service==================
 
 .service{
@@ -145,6 +150,7 @@ flex-wrap: wrap-reverse;
 }
 .data-img{
     padding-top:$size3;
+    color:#F1F4FFFF;
 }
 
 //=============project====================
@@ -282,9 +288,10 @@ div textarea{
     display: flex;
     width: 100%;
     position: fixed;        
-    background: #333;
+    //   background: #333;
+    background: #fff;
     padding: 10px 0;
-    color: #fff;
+     color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -296,10 +303,12 @@ div textarea{
 }    
 /* Some more styles to beutify this example */
 nav a{
-    color: #fff;
+     color:skyblue;
     text-decoration: none;
     padding: 7px 25px;
     display: inline-block;
+    font-family: Poppins;
+    font-weight:700;
     
 }
 // .logo{ 
